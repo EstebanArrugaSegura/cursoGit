@@ -1,0 +1,12 @@
+var ancho = screen.width;
+var alto = screen.height;
+var anchoDisp = screen.availWidth;
+var altoDisp = screen.availHeight;
+var profColor = screen.colorDepth;
+screen.updateInterval = 0;
+document.write("ancho = " + ancho + " pixels </br>");
+document.write("alto = " + alto + " pixels </br>");
+document.write("ancho disponible = " + anchoDisp + " pixels </br>");
+document.write("alto disponible = " + altoDisp + " pixels </br>");
+document.write("La profundidad de color es de: " + profColor + " bits </br>");
+document.write("Tiempo de refresco de la pantalla = " + screen.updateInterval + " ms </br>");
